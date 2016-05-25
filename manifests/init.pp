@@ -6,6 +6,6 @@ class windows_firewall::exception { 'TSErule':
   protocol     => 'TCP',
   local_port   => '8080',
   remote_port  => 'any',
-  display_name => 'Windows Remote Management HTTP-In',
+  display_name => 'Grace Firewall Example',
   description  => 'Inbound rule for Windows Remote Management via WS-Management. [TCP 5985]',
 }
