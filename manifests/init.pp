@@ -1,4 +1,4 @@
-class windows_firewall::exception { 'TSErule':
+class windows_firewall { 'TSErule':
   ensure       => present,
   direction    => 'in',
   action       => 'Allow',
